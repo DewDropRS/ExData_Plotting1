@@ -65,9 +65,10 @@ with(hpc_pro, {
   lines(datetime,Sub_metering_1, type = "l", col = "black")
   lines(datetime,Sub_metering_2, type = "l", col = "red")
   lines(datetime,Sub_metering_3, type = "l", col = "blue")
-  ##alegend("topright", col = c("black", "red", "blue"), lty=1, xpd = NA, legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+  legend("topright", col = c("black", "red", "blue"), lty=1, xpd = NA, legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), cex = .5, bty="n")
   
 })
+
 ## Bottome Right
 
 with(hpc_pro, {
